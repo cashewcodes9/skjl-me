@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/301da262-8708-4f59-8f9d-25345fd758d7/deploy-status)](https://app.netlify.com/sites/silly-jackson-320f94/deploys)
+
 **How to start up the project**
 
 ## NPM
