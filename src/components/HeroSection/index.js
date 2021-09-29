@@ -34,7 +34,7 @@ function HeroSection() {
         <HeroP>
           Sell your calender time slots for your services instantly. No banking integration needed.
           
-          Sign up for as beta user and get 3 months free.
+          Sign up as a beta user and get 3 months free trial.
         </HeroP>
         <HeroBottomTag>
           <div>
