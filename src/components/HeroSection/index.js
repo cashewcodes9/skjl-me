@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
+import Solana from '../../images/solana.svg';
 
 import Video from '../../videos/video.mp4';
 import {
@@ -8,10 +9,13 @@ import {
   VideoBg,
   HeroContent,
   HeroH1,
+  HeroH4,
   HeroP,
+  HeroBottomTag,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  HeroSmallIcon,
 } from './HeroElements';
 
 function HeroSection() {
@@ -32,6 +36,13 @@ function HeroSection() {
           
           Sign up for as beta user and get 3 months free.
         </HeroP>
+        <HeroBottomTag>
+          <div>
+            <HeroH4>Powered by:</HeroH4><HeroSmallIcon src={Solana}/>
+            <a href="https://solana.com/ignition"><HeroH4>Project at Ignition Hackathon 2021</HeroH4></a>
+          </div>
+          
+        </HeroBottomTag>
         <HeroBtnWrapper>
           <Button
             to='signup'

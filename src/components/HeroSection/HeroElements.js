@@ -79,6 +79,20 @@ export const HeroH1 = styled.h1`
   }
 `;
 
+export const HeroH4 = styled.h4`
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
+`;
+
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
@@ -94,6 +108,24 @@ export const HeroP = styled.p`
     font-size: 18px;
   }
 `;
+
+export const HeroBottomTag = styled.p`
+margin-top: 50px;
+margin-bottom: 29px;
+color: #fff;
+font-size: 20px;
+text-align: center;
+max-width: 400px;
+
+@media screen and (max-width: 768px) {
+  font-size: 18px
+}
+
+@media screen and (max-width: 480px) {
+  font-size: 16px
+}
+`;
+
 export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
@@ -109,4 +141,17 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
+`;
+
+export const HeroIcon = styled.img`
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+`;
+
+export const HeroSmallIcon = styled.img`
+  height: 80px;
+  width: 120px;
+  margin-bottom: 0px;
+  margin-top: 0px
 `;
